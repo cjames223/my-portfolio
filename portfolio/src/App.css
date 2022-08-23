@@ -1,0 +1,25 @@
+body {
+  margin: 0 10% 0 10%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.project-header {
+  text-align: center;
+}
+
+.project-container {
+  display: flex;
+}
+
+.geniidex {
+  text-align: center;
+}
