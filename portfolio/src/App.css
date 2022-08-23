@@ -10,6 +10,7 @@ body {
 .profile-container {
   display: flex;
   margin-top: 50px;
+  font-size: 40px;
 }
 
 .project-header {
@@ -28,4 +29,27 @@ body {
 .geniidex {
   text-align: center;
   width: 50%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer-right {
+  display: flex;
+  margin: 16px 0 16px 0;
+  gap: 10px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-contacts {
+  display: flex;
+  flex-direction: column;
+
 }

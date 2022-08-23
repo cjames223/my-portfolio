@@ -1,10 +1,14 @@
 import react from 'react'
 import '../App.css'
 import geniidex from '../img/geniidex.gif'
+import { PrimeIcons } from 'primereact/api'
+import 'primeicons/primeicons.css'
+import Navbar from '../components/Navbar'
 
 function Profile () {
     return (
         <div>
+            <Navbar />
             <div className='profile-container'>
                 <section className='profile'>
                     <h1>James here</h1>
@@ -30,6 +34,16 @@ function Profile () {
                     </div>
                 </section>
             </div>
+            <footer className='footer-container'>
+                <div className='footer-left'>
+                    <p>© 2022 Carlton James Jr.</p>
+                </div>
+                <div className='footer-right'>
+                    <i className='pi pi-envelope'></i>
+                    <i className='pi pi-github'></i>
+                    <i className='pi pi-linkedin'></i>
+                </div>
+            </footer>
         </div>
     )
 }
