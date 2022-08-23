@@ -18,8 +18,14 @@ body {
 
 .project-container {
   display: flex;
+  gap: 10px;
+}
+
+.project-img {
+  width: 100%;
 }
 
 .geniidex {
   text-align: center;
+  width: 50%;
 }

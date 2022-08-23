@@ -1,5 +1,6 @@
 import react from 'react'
 import '../App.css'
+import geniidex from '../img/geniidex.gif'
 
 function Profile () {
     return (
@@ -18,6 +19,12 @@ function Profile () {
                 <h1 className='project-header'>My Projects</h1>
                 <section className='project-container'>
                     <div className='geniidex'>
+                        <img className='project-img' src={geniidex}></img>
+                        <h2>GENIIDEX</h2>
+                        <p>An app that shows details of pokemon from Generation II</p>
+                    </div>
+                    <div className='geniidex'>
+                        <img className='project-img' src={geniidex}></img>
                         <h2>GENIIDEX</h2>
                         <p>An app that shows details of pokemon from Generation II</p>
                     </div>
