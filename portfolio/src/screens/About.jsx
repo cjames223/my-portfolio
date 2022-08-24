@@ -1,6 +1,7 @@
 import react from 'react'
 import '../App.css'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 function About () {
     return (
@@ -14,8 +15,10 @@ function About () {
                 </div>
                 <div>
                     <h1>Resume</h1>
+                    <i className='pi pi-linkedin'> <a href='https://www.linkedin.com/in/carlton-james-jr/'></a></i>
                 </div>
             </section>
+            <Footer />
         </div>
     )
 }

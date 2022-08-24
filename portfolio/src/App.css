@@ -51,5 +51,14 @@ body {
 .about-contacts {
   display: flex;
   flex-direction: column;
+}
 
+.project-description-container {
+  margin-bottom: 20px;
+}
+
+.project-description {
+  margin:0 auto;
+  width: 50%;
+  text-align: center;
 }
