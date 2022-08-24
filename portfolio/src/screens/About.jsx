@@ -21,12 +21,12 @@ function About () {
             <h1 className='about-reach'>Want to reach out to me?</h1>
             <section className='about-section'>
                 <div className='about-contacts'>
-                    <h1>Contact</h1>
+                    <h1 className='about-contact-resume'>Contact</h1>
                     <Mailto email='carltonjam@gmail.com' subject='' body=''><i className='pi pi-envelope'> carltonjam@gmail.com</i></Mailto>
                     <a href='https://github.com/cjames223' target='_blank'><i className='pi pi-github'> https://github.com/cjames223</i></a>
                 </div>
                 <div>
-                    <h1>Resume</h1>
+                    <h1 className='about-contact-resume'>Resume</h1>
                     <a href='https://www.linkedin.com/in/carlton-james-jr/' target='_blank'><i className='pi pi-linkedin'> https://www.linkedin.com/in/carlton-james-jr/</i></a>
                 </div>
             </section>

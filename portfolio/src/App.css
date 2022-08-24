@@ -104,3 +104,41 @@ body {
   margin-top: 20px;
   gap: 20px;
 }
+
+@media screen and (max-width: 849px) {
+  body {
+    margin: 0 10px 0 10px;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+ .profile-container {
+  flex-direction: column-reverse;
+ }
+
+ .about-desc {
+  font-size: 20px;
+  text-align: center;
+ }
+
+ .about-reach {
+  text-align: center;
+ }
+
+ .about-section {
+  max-width: 100%;
+  font-size: 11px;
+ }
+
+ .about-contact-resume {
+  text-align: center;
+ }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1000px) {
+  body {
+    margin: 0 10px 0 10px;
+  }
+}
