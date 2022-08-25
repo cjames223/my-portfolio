@@ -25,9 +25,10 @@ function About () {
                     <Mailto email='carltonjam@gmail.com' subject='' body=''><i className='pi pi-envelope'> carltonjam@gmail.com</i></Mailto>
                     <a href='https://github.com/cjames223' target='_blank'><i className='pi pi-github'> https://github.com/cjames223</i></a>
                 </div>
-                <div>
+                <div className='about-resume'>
                     <h1 className='about-contact-resume'>Resume</h1>
-                    <a href='https://www.linkedin.com/in/carlton-james-jr/' target='_blank'><i className='pi pi-linkedin'> https://www.linkedin.com/in/carlton-james-jr/</i></a>
+                    <a href='https://www.linkedin.com/in/carlton-james-jr/' target='_blank'><i className='pi pi-linkedin'> LinkedIn</i></a>
+                    <a href='https://drive.google.com/file/d/1R3Mm9P9lJn-VYZG-H6XQ1OG0-F2u3-WD/view?usp=sharing' target='_blank'><i className='pi pi-file-pdf'> Resume</i></a>
                 </div>
             </section>
             <Footer />
